@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "STARWARS";
+    src: url(STARWARS/STARWARS.eot);
+    src: url(STARWARS/STARWARS.woff)format("woff"),
+    url(STARWARS/)format("opentype"),
+    url(STARWARS/STARWARS.svg)format("svg");
+}
+
+.navbar-dark .navbar-brand{
+    font-size: 40px;
+    font-family: 'STARWARS';
+    color: #FFE81F;
+}
+
+h1, label{
+    font-family: 'STARWARS';
+    color: #FFE81F;
+}
+
+body{
+    background-color: #2d2b3c;
+}
+
+.input-custom{
+    font-family: 'STARWARS';
+    background-color: #dfdfdf;
+    color: #000;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.btn-dark{
+    background-color: #242424;
+}
+
+.quadrado{
+    padding: 35px;
+
+}
